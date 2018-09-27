@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 public class Solution {
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
         int arrsize = scan.nextInt();
         int[] arr = new int[arrsize];
