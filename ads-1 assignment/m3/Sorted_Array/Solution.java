@@ -1,14 +1,14 @@
 import java.util.Scanner;
 class Arraymerge {
-	Arraymerge() {
-	}
-	public void merge(final int[] c, final int[] d) {
+    Arraymerge() {
+    }
+    public void merge(final int[] c, final int[] d) {
     int i = 0,
      j = 0,
      k = 0;
     int p;
     int[] e = new int[c.length + d.length];
-	while (i < c.length && j < d.length) {
+    while (i < c.length && j < d.length) {
         if (c[i] < d[j]) {
             e[k++] = c[i++];
         } else {
@@ -35,9 +35,17 @@ class Arraymerge {
     }
 }
 final class Solution {
-	private Solution() {
-	}
-	public static void main(final String[] args) {
+    /**.
+     * Constructs the object.
+     */
+    private Solution() {
+    }
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Arraymerge two = new Arraymerge();
         Scanner s = new Scanner(System.in);
         int size1 = s.nextInt();
