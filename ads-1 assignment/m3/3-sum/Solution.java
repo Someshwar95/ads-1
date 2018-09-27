@@ -1,5 +1,8 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**.
+ * Class for solution.
+ */
 public class Solution {
 	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
