@@ -1,0 +1,2 @@
+Input : it was - the best - of times - - - it was - the - -
+Output: it 
