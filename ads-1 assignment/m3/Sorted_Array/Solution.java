@@ -1,7 +1,16 @@
 import java.util.Scanner;
 class Arraymerge {
+    /**.
+     * Constructs the object.
+     */
     Arraymerge() {
     }
+    /**.
+     * { function_description }
+     *
+     * @param      c     { parameter_description }
+     * @param      d     { parameter_description }
+     */
     public void merge(final int[] c, final int[] d) {
     int i = 0,
      j = 0,
@@ -34,6 +43,9 @@ class Arraymerge {
     System.out.print(e[p]);
     }
 }
+/**.
+ * { item_description }
+ */
 final class Solution {
     /**.
      * Constructs the object.
