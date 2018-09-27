@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/**.
+ * Class for arraymerge.
+ */
 class Arraymerge {
     /**.
      * Constructs the object.
@@ -89,3 +92,5 @@ final class Solution {
         }
 }
 }
+
+
