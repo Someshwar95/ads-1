@@ -16,7 +16,15 @@ class LinkedList {
          */
         private Node nextaddr;
     }
+    /**.
+     * { var_description }
+     */
     private Node first = null;
+    /**.
+     * { function_description }
+     *
+     * @param      item  The item
+     */
     public void push(final char item) {
         Node temp = new Node();
         temp.value = item;
