@@ -77,7 +77,7 @@ public final class Solution {
         int n = Integer.parseInt(scan.nextLine());
         for (int i = 0; i < n; i++) {
             String str = scan.next();
-            if (Paranthesis(str)) {
+            if (paranthesis(str)) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");
@@ -91,7 +91,7 @@ public final class Solution {
      *
      * @return     { description_of_the_return_value }
      */
-    public static boolean Paranthesis(final String str) {
+    public static boolean paranthesis(final String str) {
         LinkedList lst = new LinkedList();
         int length = str.length();
         for (int i = 0; i < length; i++) {
