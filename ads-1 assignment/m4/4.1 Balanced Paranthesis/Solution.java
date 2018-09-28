@@ -67,6 +67,11 @@ public final class Solution {
      */
     private Solution() {
     }
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
@@ -79,6 +84,13 @@ public final class Solution {
             }
         }
     }
+    /**.
+     * { function_description }
+     *
+     * @param      str   The string
+     *
+     * @return     { description_of_the_return_value }
+     */
     public static boolean Paranthesis(final String str) {
         LinkedList lst = new LinkedList();
         int length = str.length();
@@ -105,3 +117,6 @@ public final class Solution {
         return lst.isEmpty();
     }
 }
+
+
+
