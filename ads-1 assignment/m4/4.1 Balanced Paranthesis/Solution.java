@@ -58,7 +58,13 @@ class LinkedList {
         return first.value;
     }
 }
+/**.
+ * { item_description }
+ */
 public final class Solution {
+    /**.
+     * Constructs the object.
+     */
     private Solution() {
     }
     public static void main(final String[] args) {
