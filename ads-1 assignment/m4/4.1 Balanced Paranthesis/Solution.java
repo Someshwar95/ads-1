@@ -31,14 +31,29 @@ class LinkedList {
         temp.nextaddr = first;
         first = temp;
     }
+    /**.
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public char pop() {
         char value = first.value;
         first = first.nextaddr;
         return  value;
     }
+    /**.
+     * Determines if empty.
+     *
+     * @return     True if empty, False otherwise.
+     */
     public boolean isEmpty() {
         return  first == null;
     }
+    /**.
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public char top() {
         return first.value;
     }
