@@ -1,0 +1,42 @@
+Q) Which method runs faster for an array in reverse order, basic selection sort or basic insertion sort?
+Ans: 
+Insertion sort reverse order
+example: array 10 9 8 7 6
+10 9 8 7 6
+
+10 9 8 7 6	
+
+9 10 8 7 6
+
+9 8 10 7 6
+8 9 10 7 6
+
+8 9 7 10 6
+8 7 9 10 6
+7 8 9 10 6
+
+7 8 9 6 10
+7 8 6 9 10
+7 6 8 9 10
+6 7 8 9 10
+for insertion sort in reverse order the number of comparisons are N^2/2 and the number of exchanges are also N^2/2.
+
+Selection sort reverse order
+example: array 10 9 8 7 6
+10 9 8 7 6
+
+6 9 8 7 10
+
+6 7 8 9 10
+
+6 7 8 9 10
+
+6 7 8 9 10
+
+for selection sort in reverse order the number of comparisons are n^2/2 and the number of exchanges are N.
+
+So Selection sort runs faster for an array in reverse order.
+
+
+
+
