@@ -92,7 +92,7 @@ class LeaderBoard {
      *the compareto method is to.
      *check the number of wins and
      *losses
-     * @param      firstTeam   
+     * @param      firstTeam
      * @param      secondTeam
      * @return  based on their lead
      */
