@@ -88,13 +88,13 @@ class LeaderBoard {
     LeaderBoard() {
         list = new ArrayList<Team>();
     }
-    /**
-     *the compareto method is to.
-     *check the number of wins and
-     *losses
-     * @param      firstTeam
-     * @param      secondTeam
-     * @return  based on their lead
+    /**.
+     * { function_description }
+     *
+     * @param      firstTeam   The first team
+     * @param      secondTeam  The second team
+     *
+     * @return     { description_of_the_return_value }
      */
     public int compareTo(
         final Team firstTeam, final Team secondTeam) {
