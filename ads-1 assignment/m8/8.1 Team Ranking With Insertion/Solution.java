@@ -98,9 +98,9 @@ class LeaderBoard {
      */
     public int compareTo(
         final Team firstTeam, final Team secondTeam) {
-        if (firstTeam.getWins() > secondTeam.getWins()) {
+        if (firstTeam.getWins() < secondTeam.getWins()) {
             return  -1;
-        } else if (firstTeam.getWins() < secondTeam.getWins()) {
+        } else if (firstTeam.getWins() > secondTeam.getWins()) {
             return 1;
         } else {
             if (firstTeam.getLosses() > secondTeam.getLosses()) {
