@@ -23,7 +23,7 @@ class Team {
      *variable to store number
      * of tie matches.
      */
-    private int tie;
+    private int dw;
     /**
      * constructor to initialize all properties.
      * @param      name  The name
@@ -36,7 +36,7 @@ class Team {
         teamName = name;
         wins = won;
         losses = loss;
-        tie = draw;
+        dw = draw;
     }
     /**
      *method to get the name.
@@ -68,7 +68,7 @@ class Team {
      * @return     The draw.
      */
     public int getDraw() {
-        return tie;
+        return dw;
     }
 }
 /**
