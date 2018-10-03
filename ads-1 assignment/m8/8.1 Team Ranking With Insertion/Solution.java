@@ -186,9 +186,9 @@ final class Solution {
         while (scan.hasNext()) {
             String line = scan.nextLine();
             String[] tokens = line.split(",");
-            obj = new Team(tokens[1],
+            obj = new Team(tokens[0],
+                           Integer.parseInt(tokens[1]),
                            Integer.parseInt(tokens[2]),
-                           Integer.parseInt(tokens[3]),
                            Integer.parseInt(tokens[three]));
             object.addTo(obj);
         }
