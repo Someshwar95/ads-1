@@ -103,7 +103,7 @@ class LeaderBoard {
         } else if (firstTeam.getWins() > secondTeam.getWins()) {
             return 1;
         } else {
-            if (firstTeam.getLosses() > secondTeam.getLosses()) {
+            if (firstTeam.getLosses() < secondTeam.getLosses()) {
                 return 1;
             } else if (firstTeam.getLosses() > secondTeam.getLosses()) {
                 return -1;
@@ -115,7 +115,7 @@ class LeaderBoard {
                 }
             }
         }
-        return 0;
+        return 1;
     }
     /**
      * the method to add the object to array.
