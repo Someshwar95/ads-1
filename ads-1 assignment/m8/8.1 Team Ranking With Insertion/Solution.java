@@ -2,25 +2,25 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
 /**
- *the team class is to store properties.
+ *team class is to store properties.
  *of a team.
  */
 class Team {
     /**
-     * the variable to store team name.
+     *variable to store team name.
      */
     private String teamName;
     /**
-     * the variable to store number of wins.
+     *variable to store number of wins.
      */
     private int wins;
     /**
-     * the variable to store number of
+     *variable to store number of
      * lost matches.
      */
     private int losses;
     /**
-     * the variable to store number
+     *variable to store number
      * of tie matches.
      */
     private int tie;
@@ -39,7 +39,7 @@ class Team {
         tie = draw;
     }
     /**
-     * the method to get the name.
+     *method to get the name.
      *
      * @return     The name.
      */
@@ -47,7 +47,7 @@ class Team {
         return teamName;
     }
     /**
-     *this method Gives the wins.
+     *method gives the wins.
      *
      * @return     The wins.
      */
@@ -55,7 +55,7 @@ class Team {
         return wins;
     }
     /**
-     *this method Gives the Losses.
+     *method gives the Losses.
      *
      * @return     The losses.
      */
@@ -63,7 +63,7 @@ class Team {
         return losses;
     }
     /**
-     *the method is get the draw.
+     *this method is to get the draws.
      *
      * @return     The draw.
      */
@@ -115,7 +115,7 @@ class LeaderBoard {
                 }
             }
         }
-        return 1;
+        return 0;
     }
     /**
      * the method to add the object to array.
