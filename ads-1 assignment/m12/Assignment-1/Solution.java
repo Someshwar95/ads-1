@@ -231,7 +231,7 @@ public final class Solution {
         while (sc.hasNext()) {
             String line = sc.nextLine();
             String[] tokens = line.split(",");
-            obj = new Reservation(tokens[0],
+            obj = new Reservation(tokens[1],
                            Integer.parseInt(tokens[1]),
                            Integer.parseInt(tokens[2]),
                            Integer.parseInt(tokens[three]),
