@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Collections;
 class Reservation {
 	private String studentName;
 	private int dateofbirth;
@@ -39,10 +40,82 @@ class Reservation {
 		return reservationCategory;
 	}
 }
-class Display {
+class Merit {
 	private ArrayList<Reservation> list;
-	Display() {
+	Merit() {
 		list = new ArrayList<Reservation>();
 	}
-	//public int compareTo(Reservation )
+	public int compareTo(Reservation firstStudent, Reservation secondStudent) {
+		if (firstStudent.getTtlmarks() < secondStudent.getTtlmarks()) {
+			return -1;
+		} else if (firstStudent.getTtlmarks() > secondStudent.getTtlmarks()) {
+			return 1;
+		} else {
+			if (firstStudent.getSubj1marks() < secondStudent.getSubj1marks()) {
+				return -1;
+			} else if (firstStudent.getSubj1marks() > secondStudent.getSubj1marks()) {
+				return 1;
+			} else {
+				if (firstStudent.getSubj2marks() < secondStudent.getSubj2marks()) {
+					return -1;
+				} else if (firstStudent.getSubj2marks() > secondStudent.getSubj2marks()) {
+					return 1;
+				} else {
+					if (firstStudent.getSubj3marks() < secondStudent.getSubj3marks()) {
+						return -1;
+					} else if (firstStudent.getSubj3marks() > secondStudent.getSubj3marks()) {
+						return 1;
+					}
+				}
+			}
+		}
+		return 0;
+	}
+	public void addTo(Reservation obj) {
+		list.add(obj);
+	}
+	public void sorting() {
+        int max = 0;
+        int flag = 0;
+        for (int i = 0; i < list.size(); i++) {
+            max = i;
+            for (int j = i + 1; j < list.size(); j++) {
+                flag = compareTo(list.get(max), list.get(j));
+                if (flag == -1) {
+                    max = j;
+                }
+            }
+            Collections.swap(list, i, max);
+        }
+	}
+	public String print() {
+		String str = "";
+        for (int i = 0; i < list.size() - 1; i++) {
+            str += list.get(i).getName() + ",";
+        }
+        str += list.get(list.size() - 1).getName();
+        return str;
+	}
+}
+final class Solution {
+	public static void main(String[] args) {
+		Reservation obj;
+		final int six = 6;
+		Merit object = new Merit();
+		Scanner sc = new Scanner(System.in);
+		while (sc.hasNext()) {
+            String line = sc.nextLine();
+            String[] tokens = line.split(",");
+            obj = new Reservation(tokens[0],
+                           Integer.parseInt(tokens[1]),
+                           Integer.parseInt(tokens[2]),
+                           Integer.parseInt(tokens[3]),
+            			   Integer.parseInt(tokens[4]),
+            			   Integer.parseInt(tokens[5]),
+            			   (tokens[six]));
+            object.addTo(obj);
+        }
+        object.sorting();
+        System.out.println(object.print());
+	}
 }
