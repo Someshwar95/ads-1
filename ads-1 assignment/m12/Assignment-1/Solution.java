@@ -44,8 +44,9 @@ class Reservation {
      * @param      totlmarks  The totlmarks
      * @param      category   The category
      */
-    Reservation(final String name, final int dob, final int sub1marks, final int sub2marks,
-        final int sub3marks, final int totlmarks, final String category) {
+    Reservation(final String name, final int dob, final int sub1marks,
+     final int sub2marks, final int sub3marks, final int totlmarks,
+      final String category) {
         studentName = name;
         dateofbirth = dob;
         subject1marks = sub1marks;
@@ -133,7 +134,8 @@ class Merit {
      *
      * @return     { description_of_the_return_value }
      */
-    public int compareTo(final Reservation firstStudent, final Reservation secondStudent) {
+    public int compareTo(final Reservation firstStudent,
+     final Reservation secondStudent) {
         if (firstStudent.getTtlmarks() < secondStudent.getTtlmarks()) {
             return -1;
         } else if (firstStudent.getTtlmarks() > secondStudent.getTtlmarks()) {
@@ -201,10 +203,18 @@ class Merit {
 /**.
  * { item_description }
  */
-final class Solution {
-    public static void main(String[] args) {
+class Solution {
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Reservation obj;
-        //final int six = 6;
+        final int three = 3;
+        final int four = 4;
+        final int five = 5;
+        final int six = 6;
         Merit object = new Merit();
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
@@ -213,13 +223,15 @@ final class Solution {
             obj = new Reservation(tokens[0],
                            Integer.parseInt(tokens[1]),
                            Integer.parseInt(tokens[2]),
-                           Integer.parseInt(tokens[3]),
-                           Integer.parseInt(tokens[4]),
-                           Integer.parseInt(tokens[5]),
-                           (tokens[6]));
+                           Integer.parseInt(tokens[three]),
+                           Integer.parseInt(tokens[four]),
+                           Integer.parseInt(tokens[five]),
+                           (tokens[six]));
             object.addTo(obj);
         }
         object.sorting();
         System.out.println(object.print());
     }
 }
+
+

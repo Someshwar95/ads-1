@@ -1,19 +1,10 @@
 Starting audit...
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:47: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:136: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:144: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:147: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:149: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:152: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:154: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:167:23: Parameter obj should be final. [FinalParameters]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:204:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:205:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:205:29: Parameter args should be final. [FinalParameters]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:216:52: '3' is a magic number. [MagicNumber]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:217:52: '4' is a magic number. [MagicNumber]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:218:52: '5' is a magic number. [MagicNumber]
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:219:36: '6' is a magic number. [MagicNumber]
+[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:146: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:149: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:151: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:154: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:156: Line is longer than 80 characters (found 94). [LineLength]
+[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:169:23: Parameter obj should be final. [FinalParameters]
+[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:206:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 7 errors.
