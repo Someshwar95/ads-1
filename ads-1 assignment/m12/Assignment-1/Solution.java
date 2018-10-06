@@ -97,10 +97,13 @@ class Merit {
         return str;
 	}
 }
+/**.
+ * { item_description }
+ */
 final class Solution {
 	public static void main(String[] args) {
 		Reservation obj;
-		final int six = 6;
+		//final int six = 6;
 		Merit object = new Merit();
 		Scanner sc = new Scanner(System.in);
 		while (sc.hasNext()) {
@@ -112,7 +115,7 @@ final class Solution {
                            Integer.parseInt(tokens[3]),
             			   Integer.parseInt(tokens[4]),
             			   Integer.parseInt(tokens[5]),
-            			   (tokens[six]));
+            			   (tokens[6]));
             object.addTo(obj);
         }
         object.sorting();
