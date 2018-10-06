@@ -53,33 +53,85 @@ class Reservation {
         totalmarks = totlmarks;
         reservationCategory = category;
     }
+    /**.
+     * Gets the name.
+     *
+     * @return     The name.
+     */
     public String getName() {
         return studentName;
     }
+    /**.
+     * Gets the dateofbirth.
+     *
+     * @return     The dateofbirth.
+     */
     public int getDateofbirth() {
         return dateofbirth;
     }
+    /**.
+     * Gets the subj 1 marks.
+     *
+     * @return     The subj 1 marks.
+     */
     public int getSubj1marks() {
         return subject1marks;
     }
+    /**.
+     * Gets the subj 2 marks.
+     *
+     * @return     The subj 2 marks.
+     */
     public int getSubj2marks() {
         return subject2marks;
     }
+    /**.
+     * Gets the subj 3 marks.
+     *
+     * @return     The subj 3 marks.
+     */
     public int getSubj3marks() {
         return subject3marks;
     }
+    /**.
+     * Gets the ttlmarks.
+     *
+     * @return     The ttlmarks.
+     */
     public int getTtlmarks() {
         return totalmarks;
     }
+    /**.
+     * Gets the category.
+     *
+     * @return     The category.
+     */
     public String getCategory() {
         return reservationCategory;
     }
 }
+/**.
+ * Class for merit.
+ */
 class Merit {
+    /**.
+     * { var_description }
+     */
     private ArrayList<Reservation> list;
+    /**.
+     * Constructs the object.
+     */
     Merit() {
         list = new ArrayList<Reservation>();
     }
+    /**.
+     * { function_description }
+     *
+     * @param      firstStudent   The first student
+     * @param      secondStudent  The second student
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int compareTo(Reservation firstStudent, Reservation secondStudent) {
         if (firstStudent.getTtlmarks() < secondStudent.getTtlmarks()) {
             return -1;
