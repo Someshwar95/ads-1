@@ -227,6 +227,7 @@ public final class Solution {
         final int six = 6;
         Merit object = new Merit();
         Scanner sc = new Scanner(System.in);
+        int n = Integer.parseInt(sc.nextLine());
         while (sc.hasNext()) {
             String line = sc.nextLine();
             String[] tokens = line.split(",");
