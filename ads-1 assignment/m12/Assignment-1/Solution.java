@@ -143,20 +143,22 @@ class Merit {
         } else {
             if (firstStudent.getSubj1marks() < secondStudent.getSubj1marks()) {
                 return -1;
-            } else if (firstStudent.getSubj1marks() >
-             secondStudent.getSubj1marks()) {
+            } else if (firstStudent.getSubj1marks()
+                > secondStudent.getSubj1marks()) {
                 return 1;
             } else {
-                if (firstStudent.getSubj2marks() <
-                 secondStudent.getSubj2marks()) {
+                if (firstStudent.getSubj2marks()
+                    < secondStudent.getSubj2marks()) {
                     return -1;
-                } else if (firstStudent.getSubj2marks() > secondStudent.getSubj2marks()) {
+                } else if (firstStudent.getSubj2marks()
+                    > secondStudent.getSubj2marks()) {
                     return 1;
                 } else {
-                    if (firstStudent.getSubj3marks() <
-                     secondStudent.getSubj3marks()) {
+                    if (firstStudent.getSubj3marks()
+                        < secondStudent.getSubj3marks()) {
                         return -1;
-                    } else if (firstStudent.getSubj3marks() > secondStudent.getSubj3marks()) {
+                    } else if (firstStudent.getSubj3marks()
+                        > secondStudent.getSubj3marks()) {
                         return 1;
                     }
                 }
@@ -206,7 +208,7 @@ class Merit {
 /**.
  * { item_description }
  */
-class Solution {
+public final class Solution {
     /**.
      * { function_description }
      *
