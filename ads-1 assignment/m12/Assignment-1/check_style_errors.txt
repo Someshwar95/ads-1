@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] C:\ads-1\ads-1 assignment\m12\Assignment-1\Solution.java:211:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 Audit done.
-Checkstyle ends with 1 errors.
