@@ -31,8 +31,14 @@ tanvi,90,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:234)
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out-of-bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at Merit.print(Solution.java:204)
+	at Solution.main(Solution.java:244)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -76,8 +82,14 @@ Raj,87,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:234)
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out-of-bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at Merit.print(Solution.java:204)
+	at Solution.main(Solution.java:244)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -96,8 +108,14 @@ divya,99,Open
 Aditya,80,ST
 priya,76,SC
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:234)
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out-of-bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at Merit.print(Solution.java:204)
+	at Solution.main(Solution.java:244)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -119,8 +137,14 @@ priya,76,SC
 Ajay,76,Open
 Tanya,66,BC
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:234)
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out-of-bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at Merit.print(Solution.java:204)
+	at Solution.main(Solution.java:244)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -169,8 +193,14 @@ Ajay,76,Open
 Amit,76,Open
 Arjun,75,Open
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:234)
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out-of-bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at Merit.print(Solution.java:204)
+	at Solution.main(Solution.java:244)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -221,6 +251,12 @@ rahul,73,Open
 priya,72,SC
 varsha,66,BC
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:234)
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index -1 out-of-bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at Merit.print(Solution.java:204)
+	at Solution.main(Solution.java:244)
 ----------------------------------------
