@@ -143,15 +143,18 @@ class Merit {
         } else {
             if (firstStudent.getSubj1marks() < secondStudent.getSubj1marks()) {
                 return -1;
-            } else if (firstStudent.getSubj1marks() > secondStudent.getSubj1marks()) {
+            } else if (firstStudent.getSubj1marks() >
+             secondStudent.getSubj1marks()) {
                 return 1;
             } else {
-                if (firstStudent.getSubj2marks() < secondStudent.getSubj2marks()) {
+                if (firstStudent.getSubj2marks() <
+                 secondStudent.getSubj2marks()) {
                     return -1;
                 } else if (firstStudent.getSubj2marks() > secondStudent.getSubj2marks()) {
                     return 1;
                 } else {
-                    if (firstStudent.getSubj3marks() < secondStudent.getSubj3marks()) {
+                    if (firstStudent.getSubj3marks() <
+                     secondStudent.getSubj3marks()) {
                         return -1;
                     } else if (firstStudent.getSubj3marks() > secondStudent.getSubj3marks()) {
                         return 1;
@@ -166,7 +169,7 @@ class Merit {
      *
      * @param      obj   The object
      */
-    public void addTo(Reservation obj) {
+    public void addTo(final Reservation obj) {
         list.add(obj);
     }
     /**.
