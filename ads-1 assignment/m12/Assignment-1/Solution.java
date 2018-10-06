@@ -44,7 +44,8 @@ class Reservation {
      * @param      totlmarks  The totlmarks
      * @param      category   The category
      */
-    Reservation(String name, int dob, int sub1marks, int sub2marks, int sub3marks, int totlmarks, String category) {
+    Reservation(final String name, final int dob, final int sub1marks, final int sub2marks,
+        final int sub3marks, final int totlmarks, final String category) {
         studentName = name;
         dateofbirth = dob;
         subject1marks = sub1marks;
@@ -132,7 +133,7 @@ class Merit {
      *
      * @return     { description_of_the_return_value }
      */
-    public int compareTo(Reservation firstStudent, Reservation secondStudent) {
+    public int compareTo(final Reservation firstStudent, final Reservation secondStudent) {
         if (firstStudent.getTtlmarks() < secondStudent.getTtlmarks()) {
             return -1;
         } else if (firstStudent.getTtlmarks() > secondStudent.getTtlmarks()) {
