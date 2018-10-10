@@ -90,7 +90,7 @@ class Priority<E extends Comparable<E>> {
                 return false;
             }
             if ((2 * i) + 1 < array.length && greater(2 * i + 1, i)) {
-                return true;
+                return false;
             }
         }
         return true; 
