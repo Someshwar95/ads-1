@@ -2,12 +2,9 @@ Starting audit...
 [ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:2: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:8:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:30: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:68: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:84:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:87:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:96: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:98:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\ads-1\ads-1 assignment\m13\13.1 isMinHeap\Solution.java:99: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 7 errors.

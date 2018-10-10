@@ -27,7 +27,7 @@ final class Solution {
                }
             Priority<Integer> s = new Priority<Integer>(integerTokens);
             System.out.println(s.isMinHeap());
-            n--; 
+            n--;
                 }
                 break;
             case "Double":
@@ -93,9 +93,9 @@ class Priority<E extends Comparable<E>> {
                 return false;
             }
         }
-        return true; 
+        return true;
     }
     public boolean greater(final int i, final int j) {
-        return array[i].compareTo(array[j]) < 0; 
+        return array[i].compareTo(array[j]) < 0;
     }
 }
