@@ -73,7 +73,7 @@ final class Solution {
 
     }
 }
-/**           
+/**.
  *
  * Class for priority.
  *
@@ -89,9 +89,19 @@ class Priority<E extends Comparable<E>> {
      * @param size size.
      **/
     private int size;
+    /**.
+     * Constructs the object.
+     *
+     * @param      arr   The arr
+     */
     Priority(final E[] arr) {
         this.array = arr;
     }
+    /**.
+     * Determines if minimum heap.
+     *
+     * @return     True if minimum heap, False otherwise.
+     */
     public boolean isMinHeap() {
         for (int i = 1; i < array.length; i++) {
             if (2 * i < array.length && greater(2 * i, i)) {
