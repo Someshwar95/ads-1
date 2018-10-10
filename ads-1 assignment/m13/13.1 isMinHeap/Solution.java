@@ -1,10 +1,18 @@
 import java.util.Scanner;
+/**.
+ * { item_description }
+ */
 final class Solution {
     /**
      * Constructs the object.
      */
     private Solution() {
     }
+    /**.
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
@@ -95,7 +103,17 @@ class Priority<E extends Comparable<E>> {
         }
         return true;
     }
+    /**.
+     * { function_description }
+     *
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public boolean greater(final int i, final int j) {
         return array[i].compareTo(array[j]) < 0;
     }
 }
+
+
