@@ -87,10 +87,10 @@ class Priority<E extends Comparable<E>> {
     public boolean isMinHeap() {
         for (int i = 1; i < array.length; i++) {
             if (2 * i < array.length && greater(2 * i, i)) {
-                return true;
+                return false;
             }
             if ((2 * i) + 1 < array.length && greater(2 * i + 1, i)) {
-                return false;
+                return true;
             }
         }
         return true; 
