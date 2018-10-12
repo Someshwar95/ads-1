@@ -1,6 +1,5 @@
 Starting audit...
-[ERROR] C:\ads-1\ads-1 assignment\m14\14.1 Dynamic Median Finding\Solution.java:38:51: '{' at column 51 should have line break after. [LeftCurly]
-[ERROR] C:\ads-1\ads-1 assignment\m14\14.1 Dynamic Median Finding\Solution.java:39:41: '}' at column 41 should have line break before. [RightCurly]
+[ERROR] C:\ads-1\ads-1 assignment\m14\14.1 Dynamic Median Finding\Solution.java:39:63: '}' at column 63 should have line break before. [RightCurly]
 [ERROR] C:\ads-1\ads-1 assignment\m14\14.1 Dynamic Median Finding\Solution.java:42:17: '}' at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.
