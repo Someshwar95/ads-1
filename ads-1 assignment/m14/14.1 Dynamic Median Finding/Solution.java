@@ -38,8 +38,7 @@ final class Solution {
                 if (maxpq.size() == minpq.size()) {
                     median = (minpq.min() + maxpq.max()) / 2; }
                 else if (maxpq.size() > minpq.size()) {
-                    median = maxpq.max();
-                }
+                    median = maxpq.max(); }
                 else {
                     median = minpq.min();
                 }
