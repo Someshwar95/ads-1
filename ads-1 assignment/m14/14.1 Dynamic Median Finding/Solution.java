@@ -8,7 +8,7 @@ public class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int numOfvalues = sc.nextInt();
         MinPQ<Float> minpq = new MinPQ<Float>(numOfvalues);
@@ -17,7 +17,7 @@ public class Solution {
         while (sc.hasNext()) {
             for (int i = 0; i < numOfvalues; i++) {
                 float value = sc.nextFloat();
-                if(value > median) {
+                if (value > median) {
                     minpq.insert(value);
                 } else {
                     maxpq.insert(value);
@@ -29,9 +29,7 @@ public class Solution {
                     float value1 = minpq.delMin();
                     maxpq.insert(value1);
                 }
-                if (maxpq.size() == minpq.size()) {
-                    median = (minpq.min() + maxpq.max()) / 2;
-                }
+                if (maxpq.size() == minpq.size()) { median = (minpq.min() + maxpq.max()) / 2; }
                 else if (maxpq.size() > minpq.size()) {
                     median = maxpq.max();
                 }
@@ -40,7 +38,7 @@ public class Solution {
                 }
                 System.out.println(median);
             }
-        }   
+        }
     }
 }
 
