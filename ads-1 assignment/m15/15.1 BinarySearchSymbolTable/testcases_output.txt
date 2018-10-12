@@ -15,9 +15,9 @@ S 0
 X 7
 null
 Your Output: 
-A
+X
 R
-9
+1
 true
 8
 ----------------------------------------
@@ -39,15 +39,11 @@ O
 false
 null
 Your Output: 
-A
-null
-E
 Y
-E
-Q
-5
-false
-6
+Exception in thread "main" java.lang.NullPointerException
+	at SymbolTables.contains(Solution.java:54)
+	at SymbolTables.floor(Solution.java:85)
+	at Solution.main(Solution.java:134)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -72,14 +68,14 @@ true
 5
 T
 Your Output: 
-A
-9
-9
-9
-9
-8
+X
 0
-0
+1
+1
+1
+1
+10
+10
 true
 5
 T
@@ -105,8 +101,8 @@ true
 13
 P
 Your Output: 
-A
-0
+Y
+13
 true
 13
 P
@@ -129,7 +125,7 @@ Y 1
 Your Output: 
 M
 null
-A
-1
+Y
+7
 true
 ----------------------------------------

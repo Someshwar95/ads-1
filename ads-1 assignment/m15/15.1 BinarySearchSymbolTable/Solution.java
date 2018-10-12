@@ -84,7 +84,7 @@ class SymbolTables<Key extends Comparable<Key>, Value> {
         int index = rank(key);
         if (contains(key)) {
             return key;
-        } else if (index == 0) {
+        } else if (index == 1) {
             return null;
         }
         return kys[index - 1];
@@ -95,9 +95,9 @@ class SymbolTables<Key extends Comparable<Key>, Value> {
         int mid = 0;
         while (lo <= hi) {
             mid = (lo + hi) / 2;
-            if (kys[mid].compareTo(key) > 0) {
+            if (kys[mid].compareTo(key) < 0) {
                 lo = mid + 1;
-            } else if (kys[mid].compareTo(key) < 0) {
+            } else if (kys[mid].compareTo(key) > 0) {
                 hi = mid - 1;
             } else {
                 return mid;
