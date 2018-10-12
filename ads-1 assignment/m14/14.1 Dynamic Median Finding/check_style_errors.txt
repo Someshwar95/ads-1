@@ -1,5 +1,5 @@
 Starting audit...
-[ERROR] C:\ads-1\ads-1 assignment\m14\14.1 Dynamic Median Finding\Solution.java:39:63: '}' at column 63 should have line break before. [RightCurly]
-[ERROR] C:\ads-1\ads-1 assignment\m14\14.1 Dynamic Median Finding\Solution.java:41:43: '}' at column 43 should have line break before. [RightCurly]
+[ERROR] C:\ads-1\ads-1 assignment\m14\14.1 Dynamic Median Finding\Solution.java:39:69: '}' at column 69 should have line break before. [RightCurly]
+[ERROR] C:\ads-1\ads-1 assignment\m14\14.1 Dynamic Median Finding\Solution.java:41:53: '}' at column 53 should have line break before. [RightCurly]
 Audit done.
 Checkstyle ends with 2 errors.

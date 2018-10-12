@@ -36,9 +36,9 @@ final class Solution {
                     maxpq.insert(value1);
                 }
                 if (maxpq.size() == minpq.size()) {
-                    median = (minpq.min() + maxpq.max()) / 2; }
+                    median = (minpq.min() + maxpq.max()) / 2;       }
                 else if (maxpq.size() > minpq.size()) {
-                    median = maxpq.max(); }
+                    median = maxpq.max();           }
                 else {
                     median = minpq.min();
                 }
