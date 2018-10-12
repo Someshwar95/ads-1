@@ -35,7 +35,8 @@ final class Solution {
                     float value1 = minpq.delMin();
                     maxpq.insert(value1);
                 }
-                if (maxpq.size() == minpq.size()) { median = (minpq.min() + maxpq.max()) / 2; }
+                if (maxpq.size() == minpq.size()) { median = (minpq.min()
+                    + maxpq.max()) / 2; }
                 else if (maxpq.size() > minpq.size()) {
                     median = maxpq.max();
                 }
