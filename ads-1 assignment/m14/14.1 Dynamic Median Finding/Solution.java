@@ -39,8 +39,7 @@ final class Solution {
                     median = (minpq.min() + maxpq.max()) / 2;       }
                 else if (maxpq.size() > minpq.size()) {
                     median = maxpq.max();
-                }
-                else {
+                } else {
                     median = minpq.min();
                 }
                 System.out.println(median);
