@@ -1,0 +1,6 @@
+Q)Which of the following are red-black BSTs?
+Ans: 
+(i) Invalid because the number of black links are more on the right side of the root node C.
+(ii) Invalid because the number of black links are more on the right side of the root node compared to the left side.
+(iii) Valid because the number of black links are same on the sides of the root node E.
+(iv) Valid because the number of black links are same on both sides of the root node H.
