@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] C:\ads-1\ads-1 assignment\m17\TaxiCabNumbers\Solution.java:118: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 1 errors.

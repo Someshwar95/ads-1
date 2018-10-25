@@ -115,7 +115,7 @@ class CubeSum implements Comparable<CubeSum> {
     int getsum() {
         return this.sum;
     }
-    /**
+    /**.
      * { function_description }
      *
      * @param      that  The that

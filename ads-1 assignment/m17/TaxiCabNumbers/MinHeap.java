@@ -12,7 +12,7 @@ class MinHeap<Key> implements Iterable<Key> {
      */
     private Key[] pq;
     /**.
-     * variable int .
+     * variable int.
      */
     private int n;
     /**.
@@ -260,3 +260,4 @@ class MinHeap<Key> implements Iterable<Key> {
         }
     }
 }
+
