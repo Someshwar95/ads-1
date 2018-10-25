@@ -1,6 +1,5 @@
 Starting audit...
-[ERROR] C:\ads-1\ads-1 assignment\m17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\ads-1\ads-1 assignment\m17\TaxiCabNumbers\Solution.java:13: First sentence should end with a period. [JavadocStyle]
 [ERROR] C:\ads-1\ads-1 assignment\m17\TaxiCabNumbers\Solution.java:123:40: Expected @param tag for 'that'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.
