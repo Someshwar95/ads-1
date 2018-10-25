@@ -10,7 +10,7 @@ final class Solution {
      */
     private Solution() {
     }
-    /**
+    /**.
      * { function_description }
      *
      * @param      list  The list
