@@ -1,11 +1,5 @@
 Starting audit...
 [ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:11:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:12:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:27: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:34:27: Empty statement. [EmptyStatement]
-[ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:86: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-1\ads-1 assignment\m7\7.1 Steque\Steque.java:46:27: Empty statement. [EmptyStatement]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 2 errors.

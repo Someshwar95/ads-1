@@ -2,13 +2,25 @@
  * Class for steque.
  */
 class Steque {
+    /**.
+     * { item_description }
+     */
     private Node first, last;
+    /**.
+     * { var_description }
+     */
     private int size;
     /**.
      * Class for node.
      */
     private class Node {
+        /**.
+         * { var_description }
+         */
         private String item;
+        /**.
+         * { var_description }
+         */
         private Node next;
     }
     /**.
@@ -24,7 +36,7 @@ class Steque {
      *
      * @return     True if empty, False otherwise.
      */
-    public boolean isEmpty() { //complexity is of 1 as it will run only for 1 time.
+    public boolean isEmpty() {
         return (size == 0);
     }
     /**.
@@ -38,7 +50,7 @@ class Steque {
      * Gets the size.
      * @return     The size.
      */
-    public int getSize() { //complexity is of 1 as it will run only for 1 time.
+    public int getSize() {
         return size;
     }
     /**.
@@ -83,7 +95,7 @@ class Steque {
     /**.
      * printing elements of Stqueue.
      * @return     { String form of Stqueue }.
-     * 
+     *
      */
     public String print() {
         if (size == 0) {
