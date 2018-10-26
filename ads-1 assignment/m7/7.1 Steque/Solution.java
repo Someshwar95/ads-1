@@ -1,12 +1,13 @@
 import java.util.Scanner;
-/**
+/**.
  * Class for solution.
  */
 public final class Solution {
-    /**
+    /**.
      * Constructs the object.
      */
-    private Solution() { }
+    private Solution() {
+    }
     /**.
      * @param      args  The arguments
      */
@@ -43,3 +44,4 @@ public final class Solution {
         }
     }
 }
+
