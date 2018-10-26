@@ -32,7 +32,7 @@ class NonrecursiveBST<Key extends Comparable<Key>, Value> {
          * @param      key   The key
          * @param      val   The value
          */
-        private Node(final Key key, final Value val) {
+        public Node(final Key key, final Value val) {
             this.key = key;
             this.val = val;
         }

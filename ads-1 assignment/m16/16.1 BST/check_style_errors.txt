@@ -1,5 +1,6 @@
 Starting audit...
-[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:35:32: 'key' hides a field. [HiddenField]
-[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:35:49: 'val' hides a field. [HiddenField]
+[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:35:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:35:31: 'key' hides a field. [HiddenField]
+[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:35:48: 'val' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 3 errors.
