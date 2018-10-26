@@ -27,6 +27,8 @@ class NonrecursiveBST<Key extends Comparable<Key>, Value> {
          */
         private Node left, right;
         /**.
+         * Constructs the object.
+         *
          * @param      key   The key
          * @param      val   The value
          */

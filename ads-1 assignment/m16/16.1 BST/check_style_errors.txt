@@ -1,5 +1,5 @@
 Starting audit...
-[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:33:32: 'key' hides a field. [HiddenField]
-[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:33:49: 'val' hides a field. [HiddenField]
+[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:35:32: 'key' hides a field. [HiddenField]
+[ERROR] C:\ads-1\ads-1 assignment\m16\16.1 BST\Solution.java:35:49: 'val' hides a field. [HiddenField]
 Audit done.
 Checkstyle ends with 2 errors.
