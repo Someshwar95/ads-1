@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] C:\ads-1\ads-1 assignment\m20\20.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
