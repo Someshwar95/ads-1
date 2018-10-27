@@ -28,8 +28,12 @@ class Solution {
 		double total_marks = sc.nextDouble();
 		if (total_marks >= 70.32 || total_marks <= 60.0) {
 			System.out.println(student_name);
-			
 		}
-
+		if (total_marks <= 32.3) {
+			System.out.println(student_name);
+		}
+		if (total_marks >= 85.5) {
+			System.out.println(student_name);
+		}
 	}
 }

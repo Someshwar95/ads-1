@@ -26,6 +26,7 @@ Starting audit...
 [ERROR] C:\ads-1\ads-1 assignment\m24\2\Solution.java:28:24: Name 'total_marks' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] C:\ads-1\ads-1 assignment\m24\2\Solution.java:29:36: '70.32' is a magic number. [MagicNumber]
 [ERROR] C:\ads-1\ads-1 assignment\m24\2\Solution.java:29:60: '60.0' is a magic number. [MagicNumber]
-[ERROR] C:\ads-1\ads-1 assignment\m24\2\Solution.java:31: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\ads-1\ads-1 assignment\m24\2\Solution.java:32:36: '32.3' is a magic number. [MagicNumber]
+[ERROR] C:\ads-1\ads-1 assignment\m24\2\Solution.java:35:36: '85.5' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 28 errors.
+Checkstyle ends with 29 errors.
